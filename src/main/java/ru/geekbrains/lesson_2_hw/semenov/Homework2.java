@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson2_hw.semenov;
+package ru.geekbrains.lesson_2_hw.semenov;
 
 public class Homework2 {
     public static void main(String[] args) {
@@ -98,7 +98,7 @@ public class Homework2 {
         int l = 0;
         int m = array6.length;
         System.out.println("Задание 6");
-        for (int i = 0; i < array6.length; i++) {
+        for (int i = array6.length - 1; i > 0; i--) {
             k = array6[i] + array6[i + 1];
             l = array6[m] + array6[m - 1];
             if (k == l) {
@@ -110,7 +110,10 @@ public class Homework2 {
 
     // Задание 7
     public static void offsetArray() {
+        int[] array7 = {4, 8, 2, 5, 9, 4, 2, 3, 7};
+        int n = 1;
+        for (int i = 0; i < array7.length; i++) {
 
+        }
     }
-
 }
